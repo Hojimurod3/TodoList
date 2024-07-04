@@ -1,0 +1,19 @@
+# Ignore Python byte code files
+*.pyc
+
+# Ignore environment settings file
+.env
+
+venv
+
+# Ignore static files (assumes you're using collectstatic to gather them)
+/staticfiles/
+
+# Ignore media files (assumes you're using django-storages for serving)
+/media/
+
+# Ignore IDE specific files (example for Visual Studio Code)
+.vscode/
+
+# Ignore environment specific settings
+.envrc
